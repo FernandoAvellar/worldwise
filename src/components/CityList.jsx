@@ -1,7 +1,6 @@
 import CityItem from './CityItem';
 import Message from './Message';
 import styles from './CityList.module.css';
-
 import Spinner from './Spinner';
 
 function CityList({ cities, isLoading }) {
