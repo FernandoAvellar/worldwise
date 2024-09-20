@@ -35,6 +35,18 @@
         "lng": 13.376933665713324
       },
       "id": 98443197
+    },
+    {
+      "cityName": "Rio de Janeiro",
+      "country": "Brazil",
+      "emoji": "🇧🇷",
+      "date": "2027-09-12T09:24:11.863Z",
+      "notes": "Most beutiful place in the world 😃",
+      "position": {
+        "lat": -22.908333,
+        "lng": -43.196388
+      },
+      "id": 98443670
     }
   ]
 }
