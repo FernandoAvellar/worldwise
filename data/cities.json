@@ -1,18 +1,6 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
-      "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
-      },
-      "id": 73930385
-    },
-    {
       "cityName": "Madrid",
       "country": "Spain",
       "emoji": "🇪🇸",
@@ -37,64 +25,16 @@
       "id": 98443197
     },
     {
-      "cityName": "Rio de Janeiro",
-      "country": "Brazil",
-      "emoji": "🇧🇷",
-      "date": "2027-09-12T09:24:11.863Z",
-      "notes": "Most beutiful place in the world 😃",
-      "position": {
-        "lat": -22.908333,
-        "lng": -43.196388
-      },
-      "id": 98443670
-    },
-    {
-      "cityName": "Mexico City",
-      "country": "Mexico",
-      "emoji": "🇲🇽",
-      "date": "2020-09-23T18:49:34.000Z",
-      "notes": "A huge city with excelent food and good people.",
-      "position": {
-        "lat": "19.435514339097825",
-        "lng": "-99.05273437500001"
-      },
-      "id": 98443671
-    },
-    {
-      "cityName": "San Jose",
-      "country": "Costa Rica",
-      "emoji": "🇨🇷",
-      "date": "2020-09-23T18:56:52.000Z",
-      "notes": "Pura vida",
-      "position": {
-        "lat": "9.930976812881799",
-        "lng": "-84.07699584960939"
-      },
-      "id": 98443672
-    },
-    {
-      "cityName": "Lagos",
+      "cityName": "Lisbon",
       "country": "Portugal",
       "emoji": "🇵🇹",
-      "date": "2024-09-23T19:25:20.287Z",
+      "date": "2024-09-23T19:51:29.684Z",
       "notes": "",
       "position": {
-        "lat": "37.17782559332976",
-        "lng": "-8.701171875000002"
+        "lat": "38.71123253895227",
+        "lng": "-9.140625000000002"
       },
       "id": 98443673
-    },
-    {
-      "cityName": "El Bonillo",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2024-09-23T19:27:15.364Z",
-      "notes": "",
-      "position": {
-        "lat": "38.82259097617713",
-        "lng": "-2.7465820312500004"
-      },
-      "id": 98443674
     }
   ]
 }
