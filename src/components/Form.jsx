@@ -5,20 +5,17 @@ import { useState } from 'react';
 import styles from './Form.module.css';
 import BackButton from './BackButton';
 import Button from './Button';
-
-export function convertToEmoji(countryCode) {
-  const codePoints = countryCode
-    .toUpperCase()
-    .split('')
-    .map((char) => 127397 + char.charCodeAt());
-  return String.fromCodePoint(...codePoints);
-}
+// import { useSearchParams } from 'react-router-dom';
 
 function Form() {
   const [cityName, setCityName] = useState('');
-  const [country, setCountry] = useState('');
+  // const [country, setCountry] = useState('');
   const [date, setDate] = useState(new Date());
   const [notes, setNotes] = useState('');
+
+  // const [searchParams] = useSearchParams();
+  // const mapLat = searchParams.get('lat');
+  // const mapLng = searchParams.get('lng');
 
   return (
     <form className={styles.form}>
