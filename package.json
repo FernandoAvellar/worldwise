@@ -9,13 +9,14 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "format": "prettier --write ./src",
-    "server": "json-server --watch data/cities.json --port 8000 --delay 500"
+    "server": "json-server --watch data/cities.json --port 8000 --delay 600"
   },
   "dependencies": {
     "country-flag-emoji-polyfill": "^0.1.8",
     "json-server": "^0.17.4",
     "leaflet": "^1.9.4",
     "react": "^18.3.1",
+    "react-datepicker": "^7.4.0",
     "react-dom": "^18.3.1",
     "react-leaflet": "^4.2.1",
     "react-router-dom": "^6.26.2"
