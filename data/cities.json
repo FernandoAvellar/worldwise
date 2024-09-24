@@ -35,6 +35,18 @@
         "lng": "-9.140625000000002"
       },
       "id": 98443673
+    },
+    {
+      "cityName": "Monaco",
+      "country": "Monaco",
+      "emoji": "🇲🇨",
+      "date": "2024-09-24T00:52:08.772Z",
+      "notes": "Enjoy so much the formula one!",
+      "position": {
+        "lat": "43.725459774177835",
+        "lng": "7.418518066406251"
+      },
+      "id": 98443674
     }
   ]
 }
