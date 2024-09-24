@@ -1,7 +1,16 @@
-import { createContext, useContext, useEffect, useReducer } from 'react';
+import { createContext, useEffect, useReducer } from 'react';
 
 const BASE_URL = 'http://localhost:8000';
-const CitiesContext = createContext();
+
+export const CitiesContext = createContext({
+  cities: [],
+  isLoading: false,
+  error: '',
+  currentCity: {},
+  getCity: () => {},
+  addCity: () => {},
+  deleteCity: () => {},
+});
 
 const initialState = {
   cities: [],
@@ -11,7 +20,6 @@ const initialState = {
 };
 
 function reducer(state, action) {
-  console.log(action.type);
   switch (action.type) {
     case 'loading': {
       return {
@@ -82,7 +90,6 @@ function CitiesProvider({ children }) {
   }, []);
 
   async function getCity(id) {
-    console.log(id, currentCity.id);
     if (Number(id) === currentCity.id) return;
     dispatch({ type: 'loading' });
     try {
@@ -140,12 +147,4 @@ function CitiesProvider({ children }) {
   );
 }
 
-function useCities() {
-  const context = useContext(CitiesContext);
-  if (context === undefined)
-    throw new Error('CitiesContext was used outside of the CitiesProvider');
-  return context;
-}
-
-// eslint-disable-next-line react-refresh/only-export-components
-export { CitiesProvider, useCities };
+export { CitiesProvider };
